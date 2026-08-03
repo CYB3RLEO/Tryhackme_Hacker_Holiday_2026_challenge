@@ -43,13 +43,13 @@ This is the step that resolves the "clean all her traces... except one corner of
 
 The profile itself belongs to a persona named **"Lambo"** (displayed as *Lam-boh · Byte Lotus Hotel*), and includes a message directed squarely at whoever found the profile:
 
-> "Funny thing about email hashes, they follow you places you didn't expect. Glad you found the right corner of the internet! Here is your prize: `VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9`"
+> "Funny thing about email hashes, they follow you places you didn't expect. Glad you found the right corner of the internet! Here is your prize: `VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0<redacted>M2R9`"
 
 That long string is **Base64-encoded** — recognizable by the character set (uppercase, lowercase, digits, no unusual symbols) and the `=` padding conventions Base64 typically uses (though this particular string doesn't need padding).
 
 Decode it with any standard tool:
 ```bash
-echo "VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9" | base64 -d
+echo "VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0<redacted>M2R9" | base64 -d
 ```
 
 This resolves directly to the flag in TryHackMe's usual `THM{...}` format.
