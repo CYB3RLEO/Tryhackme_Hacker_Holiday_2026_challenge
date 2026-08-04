@@ -187,11 +187,11 @@ done
 
 ```
 == key-shard-1 ==
-THM{n0t_ur
+THM{***_**
 == key-shard-2 ==
 Rotated this after IT flagged it -- old value should still be recoverable if you know where to look.
 == key-shard-3 ==
-ur_c01ns!}
+**_******}
 ```
 
 Shards 1 and 3 are clean flag fragments. Shard 2's **current value is a message, not data** — explicitly telling us it was rotated, and that the old value is recoverable. This is @0xMia's hint made literal: *"if a value looks freshly rotated, ask yourself what it looked like five minutes before that."*
@@ -222,15 +222,15 @@ az keyvault secret show \
 ```
 
 ```
-_k3ys_n0t_
+_****_***_
 ```
 
 ## 7. Assembling the Flag
 
 ```
-key-shard-1: THM{n0t_ur
-key-shard-2: _k3ys_n0t_   (pre-rotation version)
-key-shard-3: ur_c01ns!}
+key-shard-1: THM{***_**
+key-shard-2: _***_***_   (pre-rotation version)
+key-shard-3: **_*****}
 ```
 
 Concatenated: `THM{...redacted...}`
