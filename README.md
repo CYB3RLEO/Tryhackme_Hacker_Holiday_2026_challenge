@@ -12,6 +12,8 @@ Each room ties into an overarching story at the Byte Lotus resort — a jukebox 
 | 5 | Beach Bar | Boot2Root — Web / Deserialization | [`Day05-Beach-Bar-Walkthrough.md`](./Day05-Beach-Bar-Walkthrough.md) |
 | 6 | *(OSINT room)* | OSINT | [`Day06-OSINT-Walkthrough.md`](./Day06-OSINT-Walkthrough.md) |
 | 7 | Do Not Disturb | Boot2Root — Web | [`Day07-Do-Not-Disturb-Walkthrough.md`](./Day07-Do-Not-Disturb-Walkthrough.md) |
+| 8 | Towel on the Sunbed | Web Exploitation — Business Logic Abuse | [`Day08-Towel-On-The-Sunbed-Walkthrough.md`](./Day08-Towel-On-The-Sunbed-Walkthrough.md) |
+| 8 | Towel on the Sunbed | Web Exploitation — Business Logic Abuse | [`Day08-Towel-On-The-Sunbed-Walkthrough.md`](./Day08-Towel-On-The-Sunbed-Walkthrough.md) |
 
 Medium has been having formatting/publishing issues, so more recent days are being kept here on GitHub instead — this repo will keep growing as later days are solved.
 
