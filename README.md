@@ -14,6 +14,7 @@ Each room ties into an overarching story at the Byte Lotus resort — a jukebox 
 | 7 | Do Not Disturb | Boot2Root — Web | [`Day07-Do-Not-Disturb-Walkthrough.md`](./Day07-Do-Not-Disturb-Walkthrough.md) |
 | 8 | Towel on the Sunbed | Web Exploitation — Business Logic Abuse | [`Day08-Towel-On-The-Sunbed-Walkthrough.md`](./Day08-Towel-On-The-Sunbed-Walkthrough.md) |
 | 9 | CryptoCabana | ☁️ Cloud — Azure Storage / Key Vault | [`Day09-CryptoCabana-Walkthrough.md`](./Day09-CryptoCabana-Walkthrough.md) |
+| 10 | The Hollow Shell | Web — Zip Slip / RCE | [`Day10-The-Hollow-Shell-Walkthrough.md`](./Day10-The-Hollow-Shell-Walkthrough.md) |
 
 Medium has been having formatting/publishing issues, so more recent days are being kept here on GitHub instead — this repo will keep growing as later days are solved.
 
