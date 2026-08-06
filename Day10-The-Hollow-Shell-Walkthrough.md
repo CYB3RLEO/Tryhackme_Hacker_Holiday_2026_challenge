@@ -19,8 +19,14 @@ This briefing is doing double duty with the word "shell" — a literal seashell/
 
 ## 2. Recon
 
+I used rustcan to get open ports faster 
+
 ```bash
-nmap -sV -sC -p22,5000 10.130.132.151
+rustscan -a <machine-ip>
+```
+
+```bash
+nmap -sV -sC -p22,5000 <machine-ip>
 ```
 
 ```
