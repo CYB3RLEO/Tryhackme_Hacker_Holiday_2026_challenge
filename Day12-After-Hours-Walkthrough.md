@@ -195,7 +195,7 @@ This time the actual literal values appeared directly:
 ```
 bytelotusdc
 cmd.exe
-/c net user patch VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2QwMHJ9 /add
+/c net user patch VEhNe1A0dGNoX29w........................... /add
 Execution halted: Environment mismatch.
 ```
 
@@ -213,11 +213,11 @@ This alone tells the complete story without needing a decompiler at all:
 
 The password passed to `net user patch <password> /add` is itself Base64:
 ```
-VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2QwMHJ9
+VEhNe1A0dGNoX29w...........................
 ```
 
 ```bash
-echo "VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2QwMHJ9" | base64 -d
+echo "VEhNe1A0dGNoX29w..........................." | base64 -d
 ```
 
 Decodes directly to the flag.
