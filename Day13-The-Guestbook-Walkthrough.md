@@ -172,7 +172,7 @@ The redaction filter matches on the literal flag *format* (`THM{...}`), so it ne
 
 Decode:
 ```bash
-echo "VEhNe2M0cjBsX3QwMGtfdGgzX2Y0bGx9" | base64 -d
+echo "VEhNe2M0cjBsX3QwMG..........." | base64 -d
 ```
 
 Flag recovered. (Only a single decode was needed here — worth verifying with a quick `file`-style sanity check or just trying one decode first, since assuming a specific number of encoding layers without checking can send you down an unnecessary detour.)
