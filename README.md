@@ -15,6 +15,8 @@ Each room ties into an overarching story at the Byte Lotus resort — a jukebox 
 | 8 | Towel on the Sunbed | Web Exploitation — Business Logic Abuse | [`Day08-Towel-On-The-Sunbed-Walkthrough.md`](./Day08-Towel-On-The-Sunbed-Walkthrough.md) |
 | 9 | CryptoCabana | ☁️ Cloud — Azure Storage / Key Vault | [`Day09-CryptoCabana-Walkthrough.md`](./Day09-CryptoCabana-Walkthrough.md) |
 | 10 | The Hollow Shell | Web — Zip Slip / RCE | [`Day10-The-Hollow-Shell-Walkthrough.md`](./Day10-The-Hollow-Shell-Walkthrough.md) |
+| 11 | Infinity Pool | Boot2Root — Internal Pivoting | [`Day11-Infinity-Pool-Walkthrough.md`](./Day11-Infinity-Pool-Walkthrough.md) |
+| 12 | After Hours | Forensics — Windows / WMI / Reverse Engineering | [`Day12-After-Hours-Walkthrough.md`](./Day12-After-Hours-Walkthrough.md) |
 
 Medium has been having formatting/publishing issues, so more recent days are being kept here on GitHub instead — this repo will keep growing as later days are solved.
 
